@@ -51,4 +51,11 @@ _Recorded at handoff, 2026-09-25._
   the run; holding ↑ for 9 s moved the progress bar to 2.2% and the clock to 4:47; all 20
   sound clips returned 200 from `/bus-sub/snd/…`; no JavaScript errors. The only console error
   was the Google Fonts stylesheet being unreachable from the test sandbox.
-- **Live:** see the section below.
+- **Live, `https://justbost.com/bus-sub/`** (2026-09-25, after Pages went on): the page returned
+  200 with title "BUS SUB" and the game's HUD markup (clock 4:00, "Back of the bus / CALM",
+  Handling bench); `screenshot.png`, `snd/yell1.mp3` and `snd/music-loop.mp3` all returned
+  their binary content (no 404). The `index.html` on `main` is the same size as the build tested
+  locally (146,426 bytes).
+- **Not yet checked live:** console errors and actually driving a run on the deployed URL.
+  The test sandbox couldn't open justbost.com in a browser, so that part rests on the
+  local run above.
