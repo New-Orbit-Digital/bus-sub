@@ -56,6 +56,6 @@ _Recorded at handoff, 2026-09-25._
   Handling bench); `screenshot.png`, `snd/yell1.mp3` and `snd/music-loop.mp3` all returned
   their binary content (no 404). The `index.html` on `main` is the same size as the build tested
   locally (146,426 bytes).
-- **Not yet checked live:** console errors and actually driving a run on the deployed URL.
-  The test sandbox couldn't open justbost.com in a browser, so that part rests on the
-  local run above.
+- **Live playtest** (2026-09-25, Justin, desktop browser with DevTools console open): drove a
+  run on `https://justbost.com/bus-sub/`; no console errors, sound playing, fonts loaded.
+  Reported as "looks good".
